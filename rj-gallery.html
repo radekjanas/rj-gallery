@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <title>Gallery</title>
+        <meta charset="UTF-8">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+			/*======================*/
+			/*== Style dla strony ==*/
+			/*======================*/
+			
+			body {
+				line-height: 1em;
+				background-color: #f6f6f6;
+				font-family: sans-serif;
+			}
+        </style>
+		<link href="css/rj-gallery.css" rel="stylesheet">
+
+    </head>
+    <body>
+		<div class="container-fluid">
+			<section class="row">
+				<div class="col-md-12">
+					<!-- Gallery container -->
+					<div class="rj-container">
+						<div class="rj-image-col">
+							<div class="rj-image-box">
+								<div class="rj-inner-box">
+									<div class="rj-overlay"></div>
+									<div class="rj-image">
+										<img class="rj-img-thumb" src="img/1.jpg" data-imgtitle="Title">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rj-image-col">
+							<div class="rj-image-box">
+								<div class="rj-inner-box">
+									<div class="rj-overlay"></div>
+									<div class="rj-image">
+										<img class="rj-img-thumb" src="img/2.jpg">
+									</div>
+								</div>
+							</div>	
+						</div>	
+						<div class="rj-image-col">
+							<div class="rj-image-box">
+								<div class="rj-inner-box">
+									<div class="rj-overlay"></div>
+									<div class="rj-image">
+										<img class="rj-img-thumb" src="img/3.jpg">
+									</div>
+								</div>
+							</div>
+						</div>									
+					</div>
+					<!-- End of gallery container -->
+				</div>					
+			</section>
+		</div>
+
+		<script>
+		rjOptions = {
+			counter: true,
+			imgbar: true,
+			expandable: true,
+			title: true,
+			style: 'rounded'
+		};
+		</script>
+		<script src="js/rj-gallery.js"></script>
+    </body>
+</html>
