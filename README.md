@@ -3,6 +3,15 @@
 rj-gallery displays configurable gallery lightbox. It works separately with each gallery container on page. Gallery lightbox automatically seeks for gallery containers.
 This plugin has been created for one of my commercial projects.
 
+## Screenshots
+| All options | Fullscreen | Minimalistic |
+|:-----------:|:----------:|:------------:|
+| ![All options](./screenshots/all-options.png) | ![Fullscreen](./screenshots/fullscreen.png) | ![Minimalistic](./screenshots/minimalistic.png) |
+
+|     Leaf    |   Noshape  |    Square    |
+|:-----------:|:----------:|:------------:|
+| ![Leaf](./screenshots/leaf.png) | ![Noshape](./screenshots/noshape.png) | ![Square](./screenshots/square.png) |
+
 ## How to use
 
 1. Upload CSS, JS and IMG files to your project
