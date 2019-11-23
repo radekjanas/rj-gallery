@@ -6,11 +6,11 @@ This plugin has been created for one of my commercial projects.
 ## Screenshots
 | All options | Fullscreen | Minimalistic |
 |:-----------:|:----------:|:------------:|
-| ![All options](./screenshots/all-options.png) | ![Fullscreen](./screenshots/fullscreen.png) | ![Minimalistic](./screenshots/minimalistic.png) |
+| ![All options](./screenshots/all-options.png) | ![Fullscreen](./screenshots/fullscreen.jpg) | ![Minimalistic](./screenshots/minimalistic.png) |
 
 |     Leaf    |   Noshape  |    Square    |
 |:-----------:|:----------:|:------------:|
-| ![Leaf](./screenshots/leaf.png) | ![Noshape](./screenshots/noshape.png) | ![Square](./screenshots/square.png) |
+| ![Leaf](./screenshots/leaf.jpg) | ![Noshape](./screenshots/noshape.png) | ![Square](./screenshots/square.jpg) |
 
 ## How to use
 
@@ -81,8 +81,9 @@ The code presented above is a configuration object. These are also default optio
 * `title` - decide whether the gallery lightbox should have image title (This can be provided by `data-imgtitle` attribute on `<img>` element). Choose between `true` and `false` **(boolean)**
 * `style` - choose navigation buttons style: `square`, `square nocolor`, `rounded`, `rounded nocolor`, `leaf`, `leaf nocolor`, `noshape` or `noshape nocolor` **(string)**
 
-## Technologies used
+## Made using
 * JavaScript (ES5)
+* Revealing Module Pattern
 * CSS
 * HTML
 
